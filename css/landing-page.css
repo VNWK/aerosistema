@@ -1,0 +1,334 @@
+/*!
+ * Start Bootstrap - Landing Page Bootstrap Theme (http://startbootstrap.com)
+ * Code licensed under the Apache License v2.0.
+ * For details, see http://www.apache.org/licenses/LICENSE-2.0.
+ */
+ html{
+ background-color: #f8f8f8;
+background: url(../img/cloud.jpg) no-repeat center center;
+ background-size:cover;
+
+ }
+
+body {
+
+  box-shadow: 0 2px 6px rgba(100, 100, 100, 0.3);
+    width: 90%;
+ 
+margin: 5px auto;
+	
+}
+body{
+border: 1px solid #cecece;}
+
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-weight: 700;
+}
+
+.lead {
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.intro-header {
+	height:50%;
+	padding-top: 10px; /* If you're making other pages, make sure there is 50px of padding to make sure the navbar doesn't overlap content! */
+    padding-bottom: 10px;
+    text-align: center;
+    color: #f8f8f8;
+    background: url(../img/conviasa.jpg) no-repeat center center;
+    background-size: cover;
+	
+}
+
+/* .intro-header:hover {
+
+	height:50%;
+	padding-top: 10px; /* If you're making other pages, make sure there is 50px of padding to make sure the navbar doesn't overlap content! */
+    /*padding-bottom: 10px;
+    text-align: center;
+    color: #f8f8f8;
+    background: url(../img/intro-bg.jpg) no-repeat center center;
+    background-size: cover;
+	
+} */
+.intro-message {
+    position: relative;
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+
+.intro-message > h1 {
+
+    margin: 0;
+    text-shadow: 2px 2px 3px rgba(0,0,0,0.6);
+    font-size: 4em;
+}
+
+.intro-divider {
+    width: 400px;
+    border-top: 1px solid #f8f8f8;
+    border-bottom: 1px solid rgba(0,0,0,0.2);
+}
+
+.intro-message > h3 {
+    text-shadow: 2px 2px 3px rgba(0,0,0,0.6);
+}
+
+@media(max-width:767px) {
+.kit{
+display:none;
+  }
+  .cat{
+  position:absolute;
+  bottom:10%;
+  right:5%;
+  margin-right:0%;
+  color: white;
+  font-size:5px;
+  display:none;
+ 
+  }
+  .cat>p{
+  margin:0;
+  }
+    .intro-message {
+        padding-bottom: 0;
+		  padding-top: 18%;
+    }
+
+    .intro-message > h1 {
+        font-size: 3em;
+    }
+
+    ul.intro-social-buttons > li {
+        display: inline;
+        margin-bottom: 20px;
+        padding: 0;
+    }
+
+    ul.intro-social-buttons > li:last-child {
+        margin-bottom: 0;
+    }
+
+    .intro-divider {
+        width: 100%;
+    }
+}
+
+.network-name {
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: 400;
+    letter-spacing: 2px;
+}
+
+.content-section-a {
+    padding: 5px 0;
+    /*background-color: #f8f8f8;*/
+}
+
+.content-section-b {
+    padding: 5px 10%;
+    border-top: 1px solid #e7e7e7;
+    border-bottom: 1px solid #e7e7e7;
+}
+
+.section-heading {
+    margin-bottom: 30px;
+}
+
+.section-heading-spacer {
+    float: left;
+    width: 200px;
+    border-top: 3px solid #e7e7e7;
+}
+
+.banner {
+    padding: 50px 0;
+      background-color: #f8f8f8;
+    background: url(../img/outro-bg.jpg) no-repeat center center transparent;
+    background-size: cover;
+}
+
+.banner h2 {
+    margin: 0;
+    /*text-shadow: 2px 2px 3px rgba(0,0,0,0.6);*/
+    font-size: 3em;
+	color:white;
+}
+
+.banner ul {
+    margin-bottom: 0;
+}
+
+.banner-social-buttons {
+    float: right;
+    margin-top: 0;
+}
+
+@media(max-width:1199px) {
+    ul.banner-social-buttons {
+        float: left;
+        margin-top: 15px;
+    }
+}
+
+@media(max-width:767px) {
+    .banner h2 {
+        margin: 0;
+        text-shadow: 2px 2px 3px rgba(0,0,0,0.6);
+        font-size: 3em;
+    }
+
+    ul.banner-social-buttons > li {
+        display: block;
+        margin-bottom: 20px;
+        padding: 0;
+    }
+
+    ul.banner-social-buttons > li:last-child {
+        margin-bottom: 0;
+    }
+}
+/* //////////////////////////////////////////STAR SALUTEEEE////////////////////////////////////////////////////////////*/
+.star{
+position: fixed;
+top:10.5%;
+right:20%;
+z-index:2000;
+}
+.star1{
+position: fixed;
+top:11%;
+right:24%;
+z-index:2000;
+}
+.star2{
+position: fixed;
+top:11%;
+right:28%;
+z-index:2000;
+}
+.star3{
+position: fixed;
+top:10.7%;
+right:32%;
+z-index:2000;
+}
+.star4{
+position: fixed;
+top:10%;
+right:36%;
+z-index:2000;
+}
+.star5{
+position: fixed;
+top:9.5%;
+right:40%;
+z-index:2000;
+}
+.star6{
+position: fixed;
+top:8.7%;
+right:44%;
+z-index:2000;
+}
+.star7{
+position: fixed;
+top:7.5%;
+right:48%;
+z-index:2000;
+}
+
+.star:hover{
+position: absolute;
+top:8%;
+right:20%;
+z-index:2000;
+}
+/* ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////*/
+footer {
+    padding: 50px 0 10px 0;
+    background-color: #f8f8f8;
+	  background: url(../img/venezuela.jpg) no-repeat center center;
+	  background-size:100% 100%;
+}
+
+p.copyright {
+    margin: 15px 0 0;
+}
+.width{
+opacity:1;}
+@media (max-width: 767px) {
+  
+body, html{
+width:100%;
+}
+.navbar-fixed-top, .navbar-fixed-bottom {
+  position: fixed;
+  right: 0%;
+  left: 0%;
+  z-index: 1030;
+  }
+  .intro-messgae{
+  padding:0;
+  width:100%;
+   
+  }}
+ 
+  .contain{
+
+  
+  margin-top:5%;
+  border-bottom:1px solid #cecece;
+  
+  }
+  .dog{
+  
+  background: url(../img/intro-bg.jpg) no-repeat center center;
+  }
+  .contain{
+  
+/* border-radius:15px; */
+
+  
+  }
+  .position{
+  position:absolute;
+  top:35%;
+  left:5%;
+  }
+  
+  .cat{
+   position:absolute;
+    bottom:-20%;
+  right:2%;
+  border-left: 1px solid white;
+  /* border-radius:7px; */
+  padding:10px;
+  float:right;
+ 
+
+  color: white;
+  font-size:11px;
+  }
+  .cat>p{
+   text-align:center;
+  margin:0;
+  }
+  .kit{
+    position:absolute;
+    bottom:0;
+  right: 38%;
+  border:1px solid #cecece;
+border-radius:5px solid #cecece;
+  }
+

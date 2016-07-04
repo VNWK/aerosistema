@@ -1,0 +1,49 @@
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="Aeropuerto Internacional La chinita, Sistema Activos">
+<meta name="author" content="Ender Peña, Victor Castillo, Daniel Pond">
+
+<link rel="stylesheet" href="css/showhide.css"/>
+<title>Aeropuerto Internacional La Chinita</title>
+
+<script src="js/jquery-2.1.3.js"></script>
+<script src="assets/bootstrap/js/bootstrap.min.js"></script>
+<link href="css/bootstrap.css" rel="stylesheet" type="text/css" />
+<link href="assets/bootstrap-dialog/css/bootstrap-dialog.min.css" rel="stylesheet" type="text/css" />
+<script src="assets/bootstrap-dialog/js/bootstrap-dialog.min.js"></script>
+<script src="js/showhide.js"></script>
+<script src="js/script.js"></script> 
+<script src="form-validator/jquery.form-validator.js"></script>   
+<link href="css/landing-page.css" rel="stylesheet">
+<link href="font-awesome-4.2.0/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+<link href="http://fonts.googleapis.com/css?family=Lato:300,400,700,300italic,400italic,700italic" rel="stylesheet" type="text/css">
+<link rel="stylesheet" href="css/responsive.css">
+<link rel="stylesheet" href="css/responsiveslides.css" />
+    <script src="js/responsiveslides.js"></script>
+    <script>                     
+    function post(path, params, method) {
+    method = method || "post"; // Set method to post by default if not specified.
+
+    // The rest of this code assumes you are not using a library.
+    // It can be made less wordy if you use one.
+    var form = document.createElement("form");
+    form.setAttribute("method", method);
+    form.setAttribute("action", path);
+
+    for(var key in params) {
+        if(params.hasOwnProperty(key)) {
+            var hiddenField = document.createElement("input");
+            hiddenField.setAttribute("type", "hidden");
+            hiddenField.setAttribute("name", key);
+            hiddenField.setAttribute("value", params[key]);
+
+            form.appendChild(hiddenField);
+         }
+    }
+
+    document.body.appendChild(form);
+    form.submit();
+}
+</script>
+<script src="val.js"></script>
